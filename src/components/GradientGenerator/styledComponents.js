@@ -5,7 +5,7 @@ export const GradientContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: ${props =>
+  background-image: ${props =>
     `linear-gradient(to ${props.direction}, ${props.color1}, ${props.color2})`};
   min-height: 100vh;
   justify-content: center;
